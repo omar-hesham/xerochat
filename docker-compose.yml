@@ -8,8 +8,10 @@ services:
         - IS_DEV=true
     environment:
       VIRTUAL_HOST: cloudchat.io
+      VIRTUAL_PROTO: HTTPS
     expose:
       - 80
+      - 443
 
     volumes:
       - .:/var/www
