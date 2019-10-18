@@ -7,7 +7,7 @@ services:
       args:
         - IS_DEV=true
     environment:
-      VIRTUAL_HOST: xerochat.oo
+      VIRTUAL_HOST: app.cloudchat.io
     expose:
       - 80
 
